@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: localhost
+  user: postgres
+
+development:
+  <<: *default
+  database: react-store-rails_development
+
+test:
+  <<: *default
+  database: react-store-rails_test
+
+production:
+  <<: *default
+  database: react-store-rails_production
+  username: react-store-rails
+  password: <%= ENV['REACT-STORE-RAILS_DATABASE_PASSWORD'] %>
