@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2018_11_20_074957) do
 
   create_table "products", force: :cascade do |t|
     t.string "title"
+    t.text "description"
     t.integer "price"
     t.string "image_urls", default: [], array: true
     t.jsonb "data", default: {}

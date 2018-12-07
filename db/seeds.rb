@@ -1,6 +1,7 @@
 Product.create([
   {
     title: 'Product 1',
+    description: 'Very long description about this Cat 1',
     price: 10000,
     image_urls: [
       'https://www.royalcanin.com/vet/~/media/Royal-Canin/Product-Categories/cat-kitten-landing-hero.ashx',
@@ -10,6 +11,7 @@ Product.create([
    },
    {
      title: 'Product 2',
+     description: 'Very long description about this Cat 2',
      price: 15000,
      image_urls: [
        'https://chemvet.dk/sites/default/files/cat.jpg',
@@ -20,6 +22,7 @@ Product.create([
    },
    {
      title: 'Product 3',
+     description: 'Very long description about this Cat 3',
      price: 17000,
      image_urls: [
        'https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/cat-adult-landing-hero.ashx',
@@ -30,6 +33,7 @@ Product.create([
    },
    {
      title: 'Product 4',
+     description: 'Very long description about this Cat 4',
      price: 21000,
      image_urls: [
        'https://cdn.arstechnica.net/wp-content/uploads/2017/06/Fotolia_58941902_Subscription_Monthly_M.jpg',
@@ -41,6 +45,7 @@ Product.create([
    },
    {
      title: 'Product 5',
+     description: 'Very long description about this Cat 5',
      price: 28000,
      image_urls: [
        'https://cdn1-www.cattime.com/assets/uploads/2011/12/file_2738_american-bobtail-460x290.jpg',
